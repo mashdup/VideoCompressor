@@ -74,6 +74,12 @@ class AVUtility {
         }
     }
     
+    /*
+     * playVideo static method
+     * videoURL URL of the video to be played
+     * presentingVC is the presenting View Controller
+     */
+    
     static func playVideo(videoURL : URL, presentingVC: UIViewController) {
         let player = AVPlayer(url: videoURL)
         let playerVC = AVPlayerViewController()
